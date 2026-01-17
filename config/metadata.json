@@ -1,0 +1,7 @@
+{
+  "name": "synchron0_2026-01-17_07-33-00Z_dbugpro",
+  "description": "Core kernel for the Synchronos OS / Tiangan Architecture.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}

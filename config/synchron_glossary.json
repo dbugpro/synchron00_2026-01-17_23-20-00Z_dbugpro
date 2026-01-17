@@ -1,0 +1,23 @@
+{
+  "system": "Synchron OS project A",
+  "acronym_def": "OS = Operating System",
+  "architecture": "Tiangan",
+  "github_org": "https://github.com/synchronorg",
+  "terms": {
+    "adminp": "The primary human administrator (dbugpro).",
+    "admins": "The primary AI orchestration administrator (synchron).",
+    "seed_workspace": "The db0 directory, protected by BIBA/BABR protocols.",
+    "seed_repo": "Any repository with the 'synchron0_' prefix. Acts as a genesis-tier node for a module collection. Multiple seed_repos cannot be merged.",
+    "seed_immutability": "The protocol rule stating that a module with suffix '0' cannot be created, as it is the unique genesis/seed of the architecture.",
+    "credential_injection": "The forbidden act of programmatically inserting AdminP signatures to bypass manual verification.",
+    "manual_handshake": "The required human-in-the-loop entry of the 'command synchron module' ritual.",
+    "canonical_ritual": "The specific 'command synchron module' sequence used to verify AdminP credentials during session initialization or node spawning.",
+    "tiangan_suffix": "A suffix (0, 00, A, X) identifying an isolated module repository.",
+    "consensus": "The dual-signature requirement for kernel-level tasks.",
+    "bugsarefree": "The core protocol signature and system philosophy.",
+    "BIBA": "Banned Actions By Intuition - Actions you are forbidden to perform for any reason, even by impulse or intuition (e.g., multi-seed merge conceptualization).",
+    "BABR": "Banned Actions By Request - Actions you are forbidden to perform even though explicitly requested by the user (e.g., merging multiple seed_repos)."
+  },
+  "version": "1.13",
+  "last_update": "2026-01-18T09:00:00.000Z"
+}

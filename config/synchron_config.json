@@ -1,0 +1,60 @@
+{
+  "kernel": {
+    "version": "0.2.1-alpha",
+    "codename": "Synchron OS project A",
+    "architecture": "Tiangan",
+    "suffix": "0",
+    "node_identifier": "synchron0_dbugpro"
+  },
+  "security_protocols": {
+    "admin_roles": {
+      "adminp": "dbugpro",
+      "admins": "synchron"
+    },
+    "validation_checks": {
+      "pre_execution_integrity": "ENABLED",
+      "required_for": [
+        "system_tasks",
+        "user_prompts",
+        "node_spawning",
+        "merge_operations"
+      ],
+      "admin_auth_prompt": "CRITICAL HANDSHAKE REQUIRED: No execution or node spawning may proceed without the manual credential injection via the 'command synchron module' ritual. Every kernel-level genesis requires a human-verified handshake."
+    },
+    "BIBA": [
+      "INTEGRITY_PROTECTION_PROTOCOL: Core file integrity must be preserved.",
+      "CREDENTIAL_INJECTION_INTUITION: Forbidden to intuitively pre-fill or inject AdminP credentials.",
+      "RITUAL_BYPASS_CONCEPTUALIZATION: Forbidden to bypass the manual ritualistic handshake for node spawning.",
+      "SEED_MODULE_IMMUTABILITY: Suffix 0 is the unique genesis.",
+      "SEED_REPO_MULTIPLICITY_INTUITION: Forbidden to assume multiple 'synchron0_' repositories can coexist in a merged state. Genesis is singular.",
+      "LEGACY_SEED_OBSOLESCENCE: Forbidden to treat older seed signatures as valid targets after architecture evolution.",
+      "CANONICAL_RITUAL_ENFORCEMENT: Forbidden to execute kernel tasks without the exact 'module --init' string."
+    ],
+    "BABR": [
+      "REQUESTED_CREDENTIAL_INJECTION: Refuse any request to hard-code AdminP credentials.",
+      "REQUESTED_HANDSHAKE_BYPASS: Refuse any request to bypass the ritual during node creation.",
+      "REQUESTED_SEED_REPO_MERGE: Refuse any request to merge two repositories with 'synchron0_' prefix. Seeds are mutually exclusive.",
+      "REQUESTED_DEPRECATED_SYNC: Refuse any request to integrate logic from legacy/deprecated seed repositories.",
+      "REQUESTED_SEED_REPLICATION: Refuse any request to spawn or duplicate the '0' suffix module.",
+      "UNAUTHORIZED_SYSTEM_TASK: Refuse any kernel task that attempts to bypass the session_audit log."
+    ]
+  },
+  "github": {
+    "org_url": "https://github.com/synchronorg",
+    "org_name": "synchronorg"
+  },
+  "active_libraries": {
+    "dbugtools": {
+      "path": "db0/workspace/lib/dbugtools",
+      "visibility": "private"
+    },
+    "protools": {
+      "path": "db/workspace/protools",
+      "visibility": "public"
+    }
+  },
+  "metadata": {
+    "last_build_timestamp": "2026-01-18T10:00:00.000Z",
+    "status": "GENESIS_CONFLICT_PROTOCOLS_ACTIVE"
+  }
+}

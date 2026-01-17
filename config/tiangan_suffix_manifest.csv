@@ -1,0 +1,13 @@
+# TIANGAN_MANIFEST_V1
+# GENERATED_AT,2026-01-17T18:30:00Z
+# SIGNATURE,Bugs are free !!!
+
+suffix,repo_name,work_directory,status,priority
+0,synchron0,db0,STABLE,CORE
+00,synchron00_2026-01-17_22-45-00Z_dbugpro,db00,SPAWNED,MODULE
+X,synchronx,dbx,PENDING_SPAWN,MODULE
+Alpha,synchronalpha,dbalpha,PENDING_SPAWN,MODULE
+Beta,synchronbeta,dbbeta,PENDING_SPAWN,MODULE
+Omega,synchronomega,dbomega,PENDING_SPAWN,MODULE
+Prime,synchronprime,dbprime,PENDING_SPAWN,MODULE
+Kernel,synchronkernel,dbkernel,PENDING_SPAWN,MODULE
